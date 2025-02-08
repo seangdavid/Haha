@@ -21,7 +21,13 @@ document.getElementById("b2").addEventListener("click", function () {
   container.style.height = newConth + "px";
 
   if (b1.style.display !== "none") {
-    let words = ["Lerng cute neak", "Ot anit me heh", "Yes mor hei"];
+    let words = [
+      "Lerng cute neak",
+      "Ot anit me heh",
+      "Yes mor hei",
+      "Kom jg ban ot",
+      "Yat me sad",
+    ];
     let randomWord = words[Math.floor(Math.random() * words.length)];
     h1.innerText = randomWord;
   }
